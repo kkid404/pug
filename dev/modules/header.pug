@@ -1,0 +1,11 @@
+//mixin navLink(link, name)
+    li
+        a(herf=link).nav__link=name
+//Миксин — это типо переменной
+header
+    .header
+        ul.nav
+            +navLink('#', '1')
+            +navLink('#', '2')
+            +navLink('#', '3')
+            +navLink('#', '4')
